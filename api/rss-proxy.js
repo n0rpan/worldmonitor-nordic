@@ -187,12 +187,58 @@ const ALLOWED_DOMAINS = [
   'www.bangkokpost.com',
   'vnexpress.net',
   'www.abc.net.au',
+  // European locale feeds (es, de, it, nl, fr)
+  'feeds.elpais.com',
+  'e00-elmundo.uecdn.es',
+  'www.bbc.com',
+  'www.tagesschau.de',
+  'www.spiegel.de',
+  'newsfeed.zeit.de',
+  'www.ansa.it',
+  'www.repubblica.it',
+  'xml2.corriereobjects.it',
+  'feeds.nos.nl',
+  'www.nrc.nl',
+  'www.telegraaf.nl',
+  'www.lorientlejour.com',
+  // Latin American feeds
+  'www.clarin.com',
+  'oglobo.globo.com',
+  'feeds.folha.uol.com.br',
+  'www.eltiempo.com',
+  'www.eluniversal.com.mx',
+  // African & Asian feeds
+  'www.jeuneafrique.com',
+  'fr.africanews.com',
+  'www.asahi.com',
   // Additional
   'news.ycombinator.com',
   // Finance variant
   'seekingalpha.com',
   'www.coindesk.com',
   'cointelegraph.com',
+  // Nordic variant — Norway
+  'www.nrk.no',
+  'www.aftenposten.no',
+  'www.vg.no',
+  'e24.no',
+  'www.dn.no',
+  'www.tu.no',
+  'energiogklima.no',
+  'www.altinget.no',
+  'www.highnorthnews.com',
+  'thebarentsobserver.com',
+  // Nordic variant — Sweden
+  'www.svt.se',
+  'www.dn.se',
+  'www.svd.se',
+  'feeds.expressen.se',
+  'www.expressen.se',
+  'www.di.se',
+  'www.nyteknik.se',
+  'www.altinget.se',
+  // Nordic variant — Shared
+  'www.montelnews.com',
 ];
 
 export default async function handler(req) {
